@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/8a3233b78e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Upohaar</title>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <button class="btn btn-accent bg-lime-400">Blog</button>
+          </div>
+          <div class="navbar-center">
+            <img src="Images/logo.png" alt="" />
+            <a class="lg:p-4 font-bold text-xl"> Upohaar-Bangladesh</a>
+          </div>
+          <div class="navbar-end">
+            <img src="Images/dollar 1.png" alt="" />
+            <p id="account-balance" class="p-1 font-bold">5500 BDT</p>
+          </div>
+        </div>
+        <div class="flex justify-center gap-4 mt-16">
+          <button id="show-donate-btn" class="btn btn-accent bg-lime-400 border-none">Donate</button>
+          <button id="show-history-btn" class="btn btn-accent bg-lime-400 border-none">History</button>
+        </div>
+        <br>
+        <br>
+      </nav>
+    </main>
+    <div id="donate-section" class="donate-section">
+      
+      <div>
+        <div class="hero bg-base-200 min-h-screen flex justify-center">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/Rectangle 1.png" class="rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex">
+                <img src="Images/dollar 1.png" alt="" />
+                <p id="noakhali-balance" class="text-lg p-1">0 BDT</p>
+              </div>
+              <br />
+              <h1 class="text-2xl font-bold">
+                Donate for Flood at Noakhali, Bangladesh
+              </h1>
+              <p class="py-6">
+                The recent floods in Noakhali have caused significant damage to
+                homes infrastructure. Your donation will help provide essential
+                supplies and to those affected by this disaster. Every
+                contribution, big or small, makes difference. Please join us in
+                supporting the relief efforts and making a positive impact on the
+                lives of those in need.
+              </p>
+              <input
+                id="donate-input"
+                type="text"
+                placeholder="Type here"
+                class="input input-bordered w-full"
+              />
+              <br />
+              <button
+                onclick="my_modal_5.showModal()"
+                id="donate-btn"
+                class="bg-lime-400 btn btn-block"
+              >
+                Donate
+              </button>
+              <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box flex flex-col justify-center items-center">
+                  <h3 class="text-3xl font-bold">Congratulations!</h3>
+                  <br>
+                  <img src="Images/dollar 1.png" alt="">
+                  <p class="py-4">
+                   You Have Donated For HumanKind
+                  </p>
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="hero bg-base-200 min-h-screen flex justify-center">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/Rectangle 2.png" class="rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex">
+                <img src="Images/dollar 1.png" alt="" />
+                <p class="text-lg p-1">0 BDT</p>
+              </div>
+              <br />
+              <h1 class="text-2xl font-bold">
+                Donate for Flood Relief in Feni,Bangladesh
+              </h1>
+              <p class="py-6">
+                TThe recent floods in Feni have devastated local communities,
+                leading to severe disruption and loss. Your generous donation will
+                help provide immediate aid, including food, clean water, and
+                medical supplies, to those affected by this calamity. Together, we
+                can offer crucial support and help rebuild lives in the aftermath
+                of this disaster. Every contribution counts towards making a real
+                difference. Please consider donating today to assist those in
+                urgent need.
+              </p>
+              <input
+                type="text"
+                placeholder="Type here"
+                class="input input-bordered w-full"
+              />
+              <button
+                onclick="my_modal_5.showModal()"
+                class="bg-lime-400 btn btn-block"
+              >
+                Donate
+              </button>
+              <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box">
+                  <h3 class="text-lg font-bold">Hello!</h3>
+                  <p class="py-4">
+                    Press ESC key or click the button below to close
+                  </p>
+                  <div class="modal-action">
+                    <form method="dialog">
+                      <button class="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="hero bg-base-200 min-h-screen flex justify-center">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/Rectangle 3.png" class="rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex">
+                <img src="Images/dollar 1.png" alt="" />
+                <p class="text-lg p-1">0 BDT</p>
+              </div>
+              <br />
+              <h1 class="text-2xl font-bold">
+                Aid for Injured in the Quota Movement
+              </h1>
+              <p class="py-6">
+                The recent Quota movement has resulted in numerous injuries and
+                significant hardship for many individuals. Your support is crucial
+                in providing medical assistance, rehabilitation, and necessary
+                supplies to those affected. By contributing, you help ensure that
+                injured individuals receive the care and support they need during
+                this challenging time. Every donation plays a vital role in
+                alleviating their suffering and aiding in their recovery. Please
+                consider making a donation to support these brave individuals in
+                their time of need.
+              </p>
+              <input
+                type="text"
+                placeholder="Type here"
+                class="input input-bordered w-full"
+              />
+              <button
+                onclick="my_modal_5.showModal()"
+                class="bg-lime-400 btn btn-block"
+              >
+                Donate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="history-section" class="mt-8 hidden">
+      <h2 class="text-2xl font-bold text-center">Donation History</h2>
+      <ul id="history-list" class="list-disc px-10"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="toogle.js"></script>
+  </body>
+  </html>
